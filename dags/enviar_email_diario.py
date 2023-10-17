@@ -31,7 +31,7 @@ email_config = {
 # Definição do operador de envio de e-mail
 enviar_email = EmailOperator(
     task_id='enviar_email',
-    to=['destinatario@gmail.com'],  # Lista de destinatários
+    to=['saomarcostecnologia@gmail.com'],  # Lista de destinatários
     subject='Bom Dia!',
     html_content='<p>Olá, tenha um ótimo dia!</p>',
     params=email_config,  # Passa as configurações do e-mail como parâmetros

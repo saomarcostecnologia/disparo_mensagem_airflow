@@ -1,0 +1,1 @@
+apache-airflow[providers-email]==2.1.0
